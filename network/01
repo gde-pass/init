@@ -1,0 +1,1 @@
+ifconfig | grep ": " | grep -v media: | grep -v status: | grep -v member: | cut -d : -f 1
