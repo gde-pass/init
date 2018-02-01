@@ -1,1 +1,1 @@
-netstat -r | grep default | grep UGSc | tr '\t' ' ' | cut -d' ' -f13
+route -n get default | grep gateway | awk '{print $2}'
