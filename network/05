@@ -1,0 +1,1 @@
+ping slash16.org -c 1 | grep "bytes from" | cut -d ' ' -f4 | cut -d ':' -f1
