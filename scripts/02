@@ -1,0 +1,2 @@
+apt-get update >> /var/log/update_script.log && apt-get upgrade >> /var/log/update_script.log
+#Pour planifier le script je fais un crontab -e puis j'ecris dans le fichier "0 4 * * 0 sh $PATH/SCRIPT"

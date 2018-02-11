@@ -1,0 +1,2 @@
+
+#Pour la planification il suffit de lancer la commande "crontab -e" puis d'éditer avec "0 0 * * * $PATH"
