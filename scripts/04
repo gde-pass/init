@@ -1,2 +1,3 @@
+echo 'Attention' | mail -s "le fichier etc/crontab a ete modifie" root
 
-#Pour la planification il suffit de lancer la commande "crontab -e" puis d'éditer avec "0 0 * * * $PATH"
+#Pour la planifiation il suffit de lancer la commande "crontab -e" puis d'éditer avec "0 0 * * * $PATH"
