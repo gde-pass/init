@@ -2,7 +2,7 @@
 
 if [ -d "$1" ]
 then
-		ls -lhS $1
+		ls -lhS "$1"
 else
 	echo "usage: sh $0 PATH"
 fi
