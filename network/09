@@ -1,2 +1,7 @@
-PING 42.fr (10.52.1.11): 56 data bytes
-64 bytes from 10.52.1.11: icmp_seq=0 ttl=63 time=0.257 ms
+Server:10.51.1.42
+Address:10.51.1.42#53
+
+Name:42.fr
+Address: 163.172.250.11
+Name:42.fr
+Address: 163.172.250.12
